@@ -21,19 +21,11 @@ async function run(req, res) {
     //   "Pinged your deployment. You successfully connected to MongoDB!"
     // );
 
-    const productCollection = client.db("pcCraft").collection("products");
     const featuredCollection = client.db("pcCraft").collection("featured");
+
     if (req.method === "GET") {
-      // Check if a specific product ID is provided
-      const id = parseInt(req.query.id);
-      if (id) {
-        const result = await productCollection.find({ id: id }).toArray();
-        res.send({ success: true, status: 200, data: result });
-      } else {
-        // Get all products if no specific ID is provided
-        const result = await productCollection.find({}).toArray();
-        res.send({ success: true, status: 200, data: result });
-      }
+      const result = await featuredCollection.find({}).toArray();
+      res.send({ success: true, status: 200, data: result });
     }
   } finally {
     // Ensures that the client will close when you finish/error

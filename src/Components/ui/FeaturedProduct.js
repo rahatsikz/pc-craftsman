@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaSlack, FaMoneyBillAlt, FaStore, FaStar } from "react-icons/fa";
 
 const FeaturedProduct = ({ products }) => {
-  console.log(products);
+  //   console.log(products);
   return (
     <div className="my-12 container mx-auto">
       <p className="text-primary text-2xl text-center underline underline-offset-8 mb-8">
@@ -11,8 +11,8 @@ const FeaturedProduct = ({ products }) => {
       </p>
       <div className="grid xl:grid-cols-3 lg:grid-cols-2 gap-12">
         {products?.data.map((pr) => (
-          <Link key={pr._id} href={`/products/${pr._id}`}>
-            <div className="card lg:card-side bg-base-100 shadow-xl hover:border px-5 lg:py-8 py-12">
+          <Link key={pr._id} href={`/products/${pr.id}`}>
+            <div className="card lg:card-side bg-base-100 hover:shadow-xl border px-5 lg:py-8 py-12">
               <figure>
                 <img src={pr.image} alt="Album" className="w-52" />
               </figure>

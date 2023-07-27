@@ -1,890 +1,909 @@
 {
   "featuredCategories": [
     {
-      "categoryName": "CPU / Processor",
-      "products": [
+      "id": 1,
+      "image": "/images/cpu_image1.jpg",
+      "productName": "Intel Core i9-11900K",
+      "category": "CPU",
+      "status": "In Stock",
+      "price": "$499",
+      "description": "Powerful and high-performance processor for gaming and productivity.",
+      "keyFeatures": {
+        "Brand": "Intel",
+        "Model": "Core i9-11900K",
+        "Specification": "8 cores, 16 threads",
+        "Socket": "LGA 1200",
+        "Clock Speed": "3.5 GHz",
+        "Max Turbo Frequency": "5.3 GHz",
+        "Cache": "16MB SmartCache",
+        "TDP": "125W"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.7,
+      "reviews": [
         {
-          "image": "cpu_image1.jpg",
-          "productName": "Intel Core i9-11900K",
-          "category": "CPU / Processor",
-          "status": "In Stock",
-          "price": "$499",
-          "description": "Powerful and high-performance processor for gaming and productivity.",
-          "keyFeatures": {
-            "Brand": "Intel",
-            "Model": "Core i9-11900K",
-            "Specification": "8 cores, 16 threads",
-            "Socket": "LGA 1200",
-            "Clock Speed": "3.5 GHz",
-            "Max Turbo Frequency": "5.3 GHz",
-            "Cache": "16MB SmartCache",
-            "TDP": "125W"
-          },
-          "individualRating": 4.8,
-          "averageRating": 4.7,
-          "reviews": [
-            {
-              "username": "User1",
-              "rating": 5,
-              "comment": "Excellent performance for gaming."
-            },
-            {
-              "username": "User2",
-              "rating": 4.5,
-              "comment": "Satisfied with the processor's speed."
-            }
-          ]
+          "userName": "User1",
+          "rating": 5,
+          "comment": "Excellent performance for gaming."
         },
         {
-          "image": "cpu_image2.jpg",
-          "productName": "AMD Ryzen 9 5900X",
-          "category": "CPU / Processor",
-          "status": "In Stock",
-          "price": "$549",
-          "description": "High-performance processor for multitasking and content creation.",
-          "keyFeatures": {
-            "Brand": "AMD",
-            "Model": "Ryzen 9 5900X",
-            "Specification": "12 cores, 24 threads",
-            "Socket": "AM4",
-            "Clock Speed": "3.7 GHz",
-            "Max Boost Clock": "4.8 GHz",
-            "Cache": "64MB L3 Cache",
-            "TDP": "105W"
-          },
-          "individualRating": 4.9,
-          "averageRating": 4.8,
-          "reviews": [
-            {
-              "username": "User3",
-              "rating": 5,
-              "comment": "Superb performance for heavy multitasking."
-            },
-            {
-              "username": "User4",
-              "rating": 5,
-              "comment": "Great CPU for video editing."
-            }
-          ]
-        },
-        {
-          "image": "cpu_image3.jpg",
-          "productName": "AMD Ryzen 7 5800X",
-          "category": "CPU / Processor",
-          "status": "In Stock",
-          "price": "$399",
-          "description": "High-speed processor for gaming and streaming.",
-          "keyFeatures": {
-            "Brand": "AMD",
-            "Model": "Ryzen 7 5800X",
-            "Specification": "8 cores, 16 threads",
-            "Socket": "AM4",
-            "Clock Speed": "3.8 GHz",
-            "Max Boost Clock": "4.7 GHz",
-            "Cache": "32MB L3 Cache",
-            "TDP": "105W"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "username": "User5",
-              "rating": 4.5,
-              "comment": "Handles gaming and streaming with ease."
-            },
-            {
-              "username": "User6",
-              "rating": 4,
-              "comment": "Good processor for the price."
-            }
-          ]
-        },
-        {
-          "image": "cpu5.jpg",
-          "productName": "Intel Core i5-11600K",
-          "category": "CPU / Processor",
-          "status": "In Stock",
-          "price": 269.99,
-          "description": "The Intel Core i5-11600K is a powerful 6-core processor designed for gaming and productivity tasks. It features the 11th Gen Intel Core architecture and delivers impressive performance and responsiveness.",
-          "keyFeatures": {
-            "Brand": "Intel",
-            "Cores": "6",
-            "Threads": "12",
-            "Base Clock": "3.9 GHz",
-            "Max Turbo Frequency": "4.9 GHz",
-            "TDP": "125W"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "userName": "MichaelDoe",
-              "rating": 4.5,
-              "comment": "The Core i5-11600K is a great processor for gaming and everyday tasks."
-            },
-            {
-              "userName": "EmilyWilliams",
-              "rating": 4.8,
-              "comment": "I'm impressed with the performance and value of this CPU."
-            }
-          ]
+          "userName": "User2",
+          "rating": 4.5,
+          "comment": "Satisfied with the processor's speed."
         }
       ]
     },
     {
-      "categoryName": "Motherboard",
-      "products": [
+      "id": 2,
+
+      "image": "/images/cpu_image2.jpg",
+      "productName": "AMD Ryzen 9 5900X",
+      "category": "CPU",
+      "status": "In Stock",
+      "price": "$549",
+      "description": "High-performance processor for multitasking and content creation.",
+      "keyFeatures": {
+        "Brand": "AMD",
+        "Model": "Ryzen 9 5900X",
+        "Specification": "12 cores, 24 threads",
+        "Socket": "AM4",
+        "Clock Speed": "3.7 GHz",
+        "Max Boost Clock": "4.8 GHz",
+        "Cache": "64MB L3 Cache",
+        "TDP": "105W"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
         {
-          "image": "motherboard_image1.jpg",
-          "productName": "ASUS ROG Strix Z590-E",
-          "category": "Motherboard",
-          "status": "In Stock",
-          "price": "$329",
-          "description": "High-performance gaming motherboard with advanced features.",
-          "keyFeatures": {
-            "Brand": "ASUS",
-            "Model": "ROG Strix Z590-E",
-            "Form Factor": "ATX",
-            "Socket": "LGA 1200",
-            "Memory Slots": "4x DDR4",
-            "Max Memory": "128GB",
-            "Expansion Slots": "2x PCIe 4.0 x16, 3x PCIe 3.0 x1",
-            "Storage": "2x M.2 slots, 6x SATA 6Gb/s ports",
-            "USB Ports": "8x USB 3.2 Gen 2, 4x USB 2.0",
-            "Networking": "2.5Gb Ethernet, Wi-Fi 6E",
-            "Audio": "SupremeFX S1220A",
-            "RGB Lighting": "Yes"
-          },
-          "individualRating": 4.8,
-          "averageRating": 4.7,
-          "reviews": [
-            {
-              "username": "User7",
-              "rating": 5,
-              "comment": "Great motherboard for gaming builds."
-            },
-            {
-              "username": "User8",
-              "rating": 4.5,
-              "comment": "Plenty of features and good build quality."
-            }
-          ]
+          "userName": "User3",
+          "rating": 5,
+          "comment": "Superb performance for heavy multitasking."
         },
         {
-          "image": "motherboard_image2.jpg",
-          "productName": "MSI MPG B550 Gaming Carbon WiFi",
-          "category": "Motherboard",
-          "status": "In Stock",
-          "price": "$199",
-          "description": "Feature-packed motherboard for gaming enthusiasts.",
-          "keyFeatures": {
-            "Brand": "MSI",
-            "Model": "MPG B550 Gaming Carbon WiFi",
-            "Form Factor": "ATX",
-            "Socket": "AM4",
-            "Memory Slots": "4x DDR4",
-            "Max Memory": "128GB",
-            "Expansion Slots": "2x PCIe 4.0 x16, 2x PCIe 3.0 x1",
-            "Storage": "2x M.2 slots, 6x SATA 6Gb/s ports",
-            "USB Ports": "6x USB 3.2 Gen 2, 6x USB 2.0",
-            "Networking": "2.5Gb Ethernet, Wi-Fi 6",
-            "Audio": "Realtek ALC1200",
-            "RGB Lighting": "Yes"
-          },
-          "individualRating": 4.9,
-          "averageRating": 4.8,
-          "reviews": [
-            {
-              "username": "User9",
-              "rating": 4.5,
-              "comment": "Good value for the price, works well."
-            },
-            {
-              "username": "User10",
-              "rating": 5,
-              "comment": "Impressive RGB lighting effects."
-            }
-          ]
+          "userName": "User4",
+          "rating": 5,
+          "comment": "Great CPU for video editing."
+        }
+      ]
+    },
+    {
+      "id": 3,
+
+      "image": "/images/cpu_image3.jpg",
+      "productName": "AMD Ryzen 7 5800X",
+      "category": "CPU",
+      "status": "In Stock",
+      "price": "$399",
+      "description": "High-speed processor for gaming and streaming.",
+      "keyFeatures": {
+        "Brand": "AMD",
+        "Model": "Ryzen 7 5800X",
+        "Specification": "8 cores, 16 threads",
+        "Socket": "AM4",
+        "Clock Speed": "3.8 GHz",
+        "Max Boost Clock": "4.7 GHz",
+        "Cache": "32MB L3 Cache",
+        "TDP": "105W"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "userName": "User5",
+          "rating": 4.5,
+          "comment": "Handles gaming and streaming with ease."
         },
         {
-          "image": "motherboard_image3.jpg",
-          "productName": "GIGABYTE B450 AORUS PRO WIFI",
-          "category": "Motherboard",
-          "status": "In Stock",
-          "price": "$129",
-          "description": "Affordable motherboard with Wi-Fi support and solid performance.",
-          "keyFeatures": {
-            "Brand": "GIGABYTE",
-            "Model": "B450 AORUS PRO WIFI",
-            "Form Factor": "ATX",
-            "Socket": "AM4",
-            "Memory Slots": "4x DDR4",
-            "Max Memory": "64GB",
-            "Expansion Slots": "1x PCIe 3.0 x16, 1x PCIe 2.0 x16, 3x PCIe 2.0 x1",
-            "Storage": "1x M.2 slot, 6x SATA 6Gb/s ports",
-            "USB Ports": "6x USB 3.1 Gen 1, 2x USB 3.1 Gen 2, 6x USB 2.0",
-            "Networking": "Wi-Fi 802.11ac, Gigabit Ethernet",
-            "Audio": "Realtek ALC1220",
-            "RGB Lighting": "Yes"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "username": "User11",
-              "rating": 4,
-              "comment": "Good budget motherboard with Wi-Fi support."
-            },
-            {
-              "username": "User12",
-              "rating": 4.5,
-              "comment": "Easy to set up and works flawlessly."
-            }
-          ]
+          "userName": "User6",
+          "rating": 4,
+          "comment": "Good processor for the price."
+        }
+      ]
+    },
+    {
+      "id": 4,
+
+      "image": "/images/cpu5.jpg",
+      "productName": "Intel Core i5-11600K",
+      "category": "CPU",
+      "status": "In Stock",
+      "price": 269.99,
+      "description": "The Intel Core i5-11600K is a powerful 6-core processor designed for gaming and productivity tasks. It features the 11th Gen Intel Core architecture and delivers impressive performance and responsiveness.",
+      "keyFeatures": {
+        "Brand": "Intel",
+        "Cores": "6",
+        "Threads": "12",
+        "Base Clock": "3.9 GHz",
+        "Max Turbo Frequency": "4.9 GHz",
+        "TDP": "125W"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "userName": "MichaelDoe",
+          "rating": 4.5,
+          "comment": "The Core i5-11600K is a great processor for gaming and everyday tasks."
         },
         {
-          "image": "motherboard_image4.jpg",
-          "productName": "ASRock B550M Steel Legend",
-          "category": "Motherboard",
-          "status": "In Stock",
-          "price": "$139",
-          "description": "Micro-ATX motherboard with stylish design and solid performance.",
-          "keyFeatures": {
-            "Brand": "ASRock",
-            "Model": "B550M Steel Legend",
-            "Form Factor": "Micro-ATX",
-            "Socket": "AM4",
-            "Memory Slots": "4x DDR4",
-            "Max Memory": "128GB",
-            "Expansion Slots": "1x PCIe 4.0 x16, 1x PCIe 3.0 x16, 1x PCIe 3.0 x1",
-            "Storage": "1x M.2 slot, 6x SATA 6Gb/s ports",
-            "USB Ports": "5x USB 3.2 Gen 1, 1x USB 3.2 Gen 2, 6x USB 2.0",
-            "Networking": "Gigabit Ethernet",
-            "Audio": "Realtek ALC1200",
-            "RGB Lighting": "Yes"
-          },
-          "individualRating": 4.6,
-          "averageRating": 4.5,
-          "reviews": [
-            {
-              "username": "User13",
-              "rating": 4,
-              "comment": "Compact and powerful micro-ATX motherboard."
-            },
-            {
-              "username": "User14",
-              "rating": 5,
-              "comment": "Great aesthetics and performance for the price."
-            }
-          ]
+          "userName": "EmilyWilliams",
+          "rating": 4.8,
+          "comment": "I'm impressed with the performance and value of this CPU."
         }
       ]
     },
 
     {
-      "categoryName": "RAM",
-      "products": [
+      "id": 5,
+      "image": "/images/motherboard_image1.jpg",
+      "productName": "ASUS ROG Strix Z590-E",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": "$329",
+      "description": "High-performance gaming motherboard with advanced features.",
+      "keyFeatures": {
+        "Brand": "ASUS",
+        "Model": "ROG Strix Z590-E",
+        "Form Factor": "ATX",
+        "Socket": "LGA 1200",
+        "Memory Slots": "4x DDR4",
+        "Max Memory": "128GB",
+        "Expansion Slots": "2x PCIe 4.0 x16, 3x PCIe 3.0 x1",
+        "Storage": "2x M.2 slots, 6x SATA 6Gb/s ports",
+        "USB Ports": "8x USB 3.2 Gen 2, 4x USB 2.0",
+        "Networking": "2.5Gb Ethernet, Wi-Fi 6E",
+        "Audio": "SupremeFX S1220A",
+        "RGB Lighting": "Yes"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.7,
+      "reviews": [
         {
-          "image": "ram1.jpg",
-          "productName": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3200MHz",
-          "status": "In Stock",
-          "price": 99.99,
-          "description": "Corsair Vengeance LPX DDR4 DRAM is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom.",
-          "keyFeatures": {
-            "Brand": "Corsair",
-            "Type": "DDR4",
-            "Capacity": "16GB (2x8GB)",
-            "Speed": "3200MHz",
-            "CAS Latency": "16",
-            "Voltage": "1.35V",
-            "Color": "Black"
-          },
-          "individualRating": 4.5,
-          "averageRating": 4.3,
-          "reviews": [
-            {
-              "userName": "JohnDoe",
-              "rating": 4,
-              "comment": "Great RAM, but a bit expensive."
-            },
-            {
-              "userName": "JaneSmith",
-              "rating": 5,
-              "comment": "Excellent performance and looks great too!"
-            }
-          ]
+          "username": "User7",
+          "rating": 5,
+          "comment": "Great motherboard for gaming builds."
         },
         {
-          "image": "ram2.jpg",
-          "productName": "Crucial Ballistix 16GB (2x8GB) DDR4 DRAM 3600MHz",
-          "status": "In Stock",
-          "price": 109.99,
-          "description": "Crucial Ballistix DDR4 DRAM delivers blazing fast speeds and low latencies for an enhanced gaming and content creation experience. It features an integrated heat spreader to maximize thermal performance and a custom-designed PCB for increased signal quality and stability.",
-          "keyFeatures": {
-            "Brand": "Crucial",
-            "Type": "DDR4",
-            "Capacity": "16GB (2x8GB)",
-            "Speed": "3600MHz",
-            "CAS Latency": "18",
-            "Voltage": "1.35V",
-            "Color": "Black"
-          },
-          "individualRating": 4.8,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "userName": "MichaelJohnson",
-              "rating": 5,
-              "comment": "Outstanding performance. Highly recommended!"
-            },
-            {
-              "userName": "EmilyWilliams",
-              "rating": 4.5,
-              "comment": "Fast delivery and excellent customer service."
-            }
-          ]
+          "username": "User8",
+          "rating": 4.5,
+          "comment": "Plenty of features and good build quality."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "/images/motherboard_image2.jpg",
+      "productName": "MSI MPG B550 Gaming Carbon WiFi",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": "$199",
+      "description": "Feature-packed motherboard for gaming enthusiasts.",
+      "keyFeatures": {
+        "Brand": "MSI",
+        "Model": "MPG B550 Gaming Carbon WiFi",
+        "Form Factor": "ATX",
+        "Socket": "AM4",
+        "Memory Slots": "4x DDR4",
+        "Max Memory": "128GB",
+        "Expansion Slots": "2x PCIe 4.0 x16, 2x PCIe 3.0 x1",
+        "Storage": "2x M.2 slots, 6x SATA 6Gb/s ports",
+        "USB Ports": "6x USB 3.2 Gen 2, 6x USB 2.0",
+        "Networking": "2.5Gb Ethernet, Wi-Fi 6",
+        "Audio": "Realtek ALC1200",
+        "RGB Lighting": "Yes"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+        {
+          "username": "User9",
+          "rating": 4.5,
+          "comment": "Good value for the price, works well."
         },
         {
-          "image": "ram3.jpg",
-          "productName": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 DRAM 3200MHz",
-          "status": "In Stock",
-          "price": 179.99,
-          "description": "G.Skill Ripjaws V DDR4 DRAM offers outstanding performance and compatibility. It features a sleek, asymmetrical design and is optimized for high-speed overclocking.",
-          "keyFeatures": {
-            "Brand": "G.Skill",
-            "Type": "DDR4",
-            "Capacity": "32GB (2x16GB)",
-            "Speed": "3200MHz",
-            "CAS Latency": "16",
-            "Voltage": "1.35V",
-            "Color": "Red"
-          },
-          "individualRating": 4.9,
-          "averageRating": 4.7,
-          "reviews": [
-            {
-              "userName": "SarahMiller",
-              "rating": 5,
-              "comment": "The best RAM I've ever used. Absolutely love it!"
-            },
-            {
-              "userName": "DavidSmith",
-              "rating": 4.8,
-              "comment": "Fast and reliable performance. Highly recommended!"
-            }
-          ]
+          "username": "User10",
+          "rating": 5,
+          "comment": "Impressive RGB lighting effects."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "/images/motherboard_image3.jpg",
+      "productName": "GIGABYTE B450 AORUS PRO WIFI",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": "$129",
+      "description": "Affordable motherboard with Wi-Fi support and solid performance.",
+      "keyFeatures": {
+        "Brand": "GIGABYTE",
+        "Model": "B450 AORUS PRO WIFI",
+        "Form Factor": "ATX",
+        "Socket": "AM4",
+        "Memory Slots": "4x DDR4",
+        "Max Memory": "64GB",
+        "Expansion Slots": "1x PCIe 3.0 x16, 1x PCIe 2.0 x16, 3x PCIe 2.0 x1",
+        "Storage": "1x M.2 slot, 6x SATA 6Gb/s ports",
+        "USB Ports": "6x USB 3.1 Gen 1, 2x USB 3.1 Gen 2, 6x USB 2.0",
+        "Networking": "Wi-Fi 802.11ac, Gigabit Ethernet",
+        "Audio": "Realtek ALC1220",
+        "RGB Lighting": "Yes"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "username": "User11",
+          "rating": 4,
+          "comment": "Good budget motherboard with Wi-Fi support."
         },
         {
-          "image": "ram4.jpg",
-          "productName": "Kingston HyperX Fury 8GB DDR4 2666MHz",
-          "status": "In Stock",
-          "price": 59.99,
-          "description": "Kingston HyperX Fury DDR4 offers a cost-effective upgrade option with high-quality performance. It features a stylish, low-profile design that complements most systems.",
-          "keyFeatures": {
-            "Brand": "Kingston",
-            "Type": "DDR4",
-            "Capacity": "8GB",
-            "Speed": "2666MHz",
-            "CAS Latency": "16",
-            "Voltage": "1.2V",
-            "Color": "Black"
-          },
-          "individualRating": 4.4,
-          "averageRating": 4.2,
-          "reviews": [
-            {
-              "userName": "MarkWilson",
-              "rating": 4,
-              "comment": "Good value for money. Performs well in gaming."
-            },
-            {
-              "userName": "LauraLee",
-              "rating": 4.5,
-              "comment": "Reliable and budget-friendly RAM."
-            }
-          ]
+          "username": "User12",
+          "rating": 4.5,
+          "comment": "Easy to set up and works flawlessly."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "/images/motherboard_image4.jpg",
+      "productName": "ASRock B550M Steel Legend",
+      "category": "Motherboard",
+      "status": "In Stock",
+      "price": "$139",
+      "description": "Micro-ATX motherboard with stylish design and solid performance.",
+      "keyFeatures": {
+        "Brand": "ASRock",
+        "Model": "B550M Steel Legend",
+        "Form Factor": "Micro-ATX",
+        "Socket": "AM4",
+        "Memory Slots": "4x DDR4",
+        "Max Memory": "128GB",
+        "Expansion Slots": "1x PCIe 4.0 x16, 1x PCIe 3.0 x16, 1x PCIe 3.0 x1",
+        "Storage": "1x M.2 slot, 6x SATA 6Gb/s ports",
+        "USB Ports": "5x USB 3.2 Gen 1, 1x USB 3.2 Gen 2, 6x USB 2.0",
+        "Networking": "Gigabit Ethernet",
+        "Audio": "Realtek ALC1200",
+        "RGB Lighting": "Yes"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+        {
+          "username": "User13",
+          "rating": 4,
+          "comment": "Compact and powerful micro-ATX motherboard."
+        },
+        {
+          "username": "User14",
+          "rating": 5,
+          "comment": "Great aesthetics and performance for the price."
         }
       ]
     },
 
     {
-      "categoryName": "Power Supply Unit",
-      "products": [
+      "id": 9,
+      "image": "/images/ram1.jpg",
+      "productName": "Corsair Vengeance LPX 16GB (2x8GB) DDR4 DRAM 3200MHz",
+      "category": "Ram",
+      "status": "In Stock",
+      "price": 99.99,
+      "description": "Corsair Vengeance LPX DDR4 DRAM is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the eight-layer PCB helps manage heat and provides superior overclocking headroom.",
+      "keyFeatures": {
+        "Brand": "Corsair",
+        "Type": "DDR4",
+        "Capacity": "16GB (2x8GB)",
+        "Speed": "3200MHz",
+        "CAS Latency": "16",
+        "Voltage": "1.35V",
+        "Color": "Black"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.3,
+      "reviews": [
         {
-          "image": "psu1.jpg",
-          "productName": "Corsair RM750x, 750W, 80+ Gold Certified",
-          "status": "In Stock",
-          "price": 129.99,
-          "description": "The Corsair RM750x is a high-performance power supply unit designed for gaming and high-end systems. It delivers 750W of continuous power with 80+ Gold efficiency, ensuring stable and reliable performance.",
-          "keyFeatures": {
-            "Brand": "Corsair",
-            "Wattage": "750W",
-            "Efficiency": "80+ Gold",
-            "Modular": "Fully Modular",
-            "Fan Size": "135mm",
-            "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 4 x PCIe, 8 x SATA, 8 x Molex"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "userName": "JohnDoe",
-              "rating": 5,
-              "comment": "Outstanding power supply. Highly recommended!"
-            },
-            {
-              "userName": "JaneSmith",
-              "rating": 4.5,
-              "comment": "Reliable and efficient. Great value for the price."
-            }
-          ]
+          "userName": "JohnDoe",
+          "rating": 4,
+          "comment": "Great RAM, but a bit expensive."
         },
         {
-          "image": "psu2.jpg",
-          "productName": "EVGA SuperNOVA 850 G+, 850W, 80+ Gold Certified",
-          "status": "In Stock",
-          "price": 139.99,
-          "description": "The EVGA SuperNOVA 850 G+ is a high-performance power supply unit built with premium components for long-lasting and efficient operation. It offers 850W of power with 80+ Gold efficiency.",
-          "keyFeatures": {
-            "Brand": "EVGA",
-            "Wattage": "850W",
-            "Efficiency": "80+ Gold",
-            "Modular": "Semi-Modular",
-            "Fan Size": "135mm",
-            "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 6 x PCIe, 9 x SATA, 5 x Molex"
-          },
-          "individualRating": 4.6,
-          "averageRating": 4.4,
-          "reviews": [
-            {
-              "userName": "MichaelJohnson",
-              "rating": 4.5,
-              "comment": "Solid PSU with excellent performance."
-            },
-            {
-              "userName": "EmilyWilliams",
-              "rating": 4,
-              "comment": "Good power supply, but a bit pricey."
-            }
-          ]
+          "userName": "JaneSmith",
+          "rating": 5,
+          "comment": "Excellent performance and looks great too!"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "/images/ram2.jpg",
+      "productName": "Crucial Ballistix 16GB (2x8GB) DDR4 DRAM 3600MHz",
+      "category": "Ram",
+      "status": "In Stock",
+      "price": 109.99,
+      "description": "Crucial Ballistix DDR4 DRAM delivers blazing fast speeds and low latencies for an enhanced gaming and content creation experience. It features an integrated heat spreader to maximize thermal performance and a custom-designed PCB for increased signal quality and stability.",
+      "keyFeatures": {
+        "Brand": "Crucial",
+        "Type": "DDR4",
+        "Capacity": "16GB (2x8GB)",
+        "Speed": "3600MHz",
+        "CAS Latency": "18",
+        "Voltage": "1.35V",
+        "Color": "Black"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "userName": "MichaelJohnson",
+          "rating": 5,
+          "comment": "Outstanding performance. Highly recommended!"
         },
         {
-          "image": "psu3.jpg",
-          "productName": "Seasonic Focus GX-650, 650W, 80+ Gold Certified",
-          "status": "In Stock",
-          "price": 109.99,
-          "description": "The Seasonic Focus GX-650 is a reliable and efficient power supply unit, delivering 650W of power with 80+ Gold efficiency. It is built with premium components for stable and quiet performance.",
-          "keyFeatures": {
-            "Brand": "Seasonic",
-            "Wattage": "650W",
-            "Efficiency": "80+ Gold",
-            "Modular": "Semi-Modular",
-            "Fan Size": "120mm",
-            "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 2 x PCIe, 8 x SATA, 3 x Molex"
-          },
-          "individualRating": 4.8,
-          "averageRating": 4.7,
-          "reviews": [
-            {
-              "userName": "SarahMiller",
-              "rating": 5,
-              "comment": "Excellent PSU. Runs quietly and efficiently."
-            },
-            {
-              "userName": "DavidSmith",
-              "rating": 4.7,
-              "comment": "Great choice for a gaming PC."
-            }
-          ]
+          "userName": "EmilyWilliams",
+          "rating": 4.5,
+          "comment": "Fast delivery and excellent customer service."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "/images/ram3.jpg",
+      "productName": "G.Skill Ripjaws V 32GB (2x16GB) DDR4 DRAM 3200MHz",
+      "category": "Ram",
+      "status": "In Stock",
+      "price": 179.99,
+      "description": "G.Skill Ripjaws V DDR4 DRAM offers outstanding performance and compatibility. It features a sleek, asymmetrical design and is optimized for high-speed overclocking.",
+      "keyFeatures": {
+        "Brand": "G.Skill",
+        "Type": "DDR4",
+        "Capacity": "32GB (2x16GB)",
+        "Speed": "3200MHz",
+        "CAS Latency": "16",
+        "Voltage": "1.35V",
+        "Color": "Red"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.7,
+      "reviews": [
+        {
+          "userName": "SarahMiller",
+          "rating": 5,
+          "comment": "The best RAM I've ever used. Absolutely love it!"
         },
         {
-          "image": "psu4.jpg",
-          "productName": "Cooler Master MWE Gold 750 V2, 750W, 80+ Gold Certified",
-          "status": "In Stock",
-          "price": 119.99,
-          "description": "The Cooler Master MWE Gold 750 V2 is a high-performance power supply unit designed for gaming and system builders. It offers 750W of power with 80+ Gold efficiency and comes with fully modular cables.",
-          "keyFeatures": {
-            "Brand": "Cooler Master",
-            "Wattage": "750W",
-            "Efficiency": "80+ Gold",
-            "Modular": "Fully Modular",
-            "Fan Size": "120mm",
-            "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 4 x PCIe, 9 x SATA, 5 x Molex"
-          },
-          "individualRating": 4.5,
-          "averageRating": 4.3,
-          "reviews": [
-            {
-              "userName": "MarkWilson",
-              "rating": 4.5,
-              "comment": "Good PSU, but wish it had more SATA connectors."
-            },
-            {
-              "userName": "LauraLee",
-              "rating": 4.2,
-              "comment": "Stable performance, no issues so far."
-            }
-          ]
+          "userName": "DavidSmith",
+          "rating": 4.8,
+          "comment": "Fast and reliable performance. Highly recommended!"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "/images/ram4.jpg",
+      "productName": "Kingston HyperX Fury 8GB DDR4 2666MHz",
+      "category": "Ram",
+      "status": "In Stock",
+      "price": 59.99,
+      "description": "Kingston HyperX Fury DDR4 offers a cost-effective upgrade option with high-quality performance. It features a stylish, low-profile design that complements most systems.",
+      "keyFeatures": {
+        "Brand": "Kingston",
+        "Type": "DDR4",
+        "Capacity": "8GB",
+        "Speed": "2666MHz",
+        "CAS Latency": "16",
+        "Voltage": "1.2V",
+        "Color": "Black"
+      },
+      "individualRating": 4.4,
+      "averageRating": 4.2,
+      "reviews": [
+        {
+          "userName": "MarkWilson",
+          "rating": 4,
+          "comment": "Good value for money. Performs well in gaming."
+        },
+        {
+          "userName": "LauraLee",
+          "rating": 4.5,
+          "comment": "Reliable and budget-friendly RAM."
         }
       ]
     },
 
     {
-      "categoryName": "Storage Device",
-      "products": [
+      "id": 13,
+      "image": "/images/psu1.jpg",
+      "productName": "Corsair RM750x, 750W, 80+ Gold Certified",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 129.99,
+      "description": "The Corsair RM750x is a high-performance power supply unit designed for gaming and high-end systems. It delivers 750W of continuous power with 80+ Gold efficiency, ensuring stable and reliable performance.",
+      "keyFeatures": {
+        "Brand": "Corsair",
+        "Wattage": "750W",
+        "Efficiency": "80+ Gold",
+        "Modular": "Fully Modular",
+        "Fan Size": "135mm",
+        "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 4 x PCIe, 8 x SATA, 8 x Molex"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
         {
-          "image": "storage1.jpg",
-          "productName": "Samsung 970 EVO Plus NVMe SSD, 500GB",
-          "status": "In Stock",
-          "price": 99.99,
-          "description": "The Samsung 970 EVO Plus NVMe SSD offers fast read and write speeds, making it ideal for gaming and multimedia tasks. It provides 500GB of storage capacity and uses the latest V-NAND technology.",
-          "keyFeatures": {
-            "Brand": "Samsung",
-            "Capacity": "500GB",
-            "Interface": "NVMe",
-            "Read Speed": "3500 MB/s",
-            "Write Speed": "3300 MB/s",
-            "Form Factor": "M.2 2280"
-          },
-          "individualRating": 4.9,
-          "averageRating": 4.8,
-          "reviews": [
-            {
-              "userName": "AmyJohnson",
-              "rating": 5,
-              "comment": "Blazing fast SSD. Great performance!"
-            },
-            {
-              "userName": "RobertSmith",
-              "rating": 4.8,
-              "comment": "Highly recommend this SSD for gaming."
-            }
-          ]
+          "userName": "JohnDoe",
+          "rating": 5,
+          "comment": "Outstanding power supply. Highly recommended!"
         },
         {
-          "image": "storage2.jpg",
-          "productName": "Western Digital Blue SATA SSD, 1TB",
-          "status": "In Stock",
-          "price": 109.99,
-          "description": "The Western Digital Blue SATA SSD offers reliable and consistent performance for everyday computing tasks. It provides 1TB of storage capacity and is built to deliver fast data transfer speeds.",
-          "keyFeatures": {
-            "Brand": "Western Digital",
-            "Capacity": "1TB",
-            "Interface": "SATA III",
-            "Read Speed": "560 MB/s",
-            "Write Speed": "530 MB/s",
-            "Form Factor": "2.5-inch"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "userName": "EmilyBrown",
-              "rating": 4.5,
-              "comment": "Solid and affordable SSD for general use."
-            },
-            {
-              "userName": "MichaelDavis",
-              "rating": 4.8,
-              "comment": "Great value for the price. Works perfectly."
-            }
-          ]
-        },
-        {
-          "image": "storage3.jpg",
-          "productName": "Seagate BarraCuda HDD, 2TB",
-          "status": "In Stock",
-          "price": 69.99,
-          "description": "The Seagate BarraCuda HDD is a reliable and cost-effective storage solution. It offers 2TB of storage capacity and is designed for high-speed data transfer and large storage needs.",
-          "keyFeatures": {
-            "Brand": "Seagate",
-            "Capacity": "2TB",
-            "Interface": "SATA III",
-            "RPM": "7200",
-            "Form Factor": "3.5-inch"
-          },
-          "individualRating": 4.6,
-          "averageRating": 4.5,
-          "reviews": [
-            {
-              "userName": "JohnMiller",
-              "rating": 4.5,
-              "comment": "Good HDD for storing large files."
-            },
-            {
-              "userName": "SarahAnderson",
-              "rating": 4.7,
-              "comment": "Fast and reliable storage option."
-            }
-          ]
-        },
-        {
-          "image": "storage4.jpg",
-          "productName": "Crucial MX500 SATA SSD, 500GB",
-          "status": "In Stock",
-          "price": 89.99,
-          "description": "The Crucial MX500 SATA SSD delivers fast data transfer speeds and provides 500GB of storage capacity. It is built with Micron 3D NAND technology for enhanced reliability and durability.",
-          "keyFeatures": {
-            "Brand": "Crucial",
-            "Capacity": "500GB",
-            "Interface": "SATA III",
-            "Read Speed": "560 MB/s",
-            "Write Speed": "510 MB/s",
-            "Form Factor": "2.5-inch"
-          },
-          "individualRating": 4.5,
-          "averageRating": 4.4,
-          "reviews": [
-            {
-              "userName": "LauraClark",
-              "rating": 4.5,
-              "comment": "Excellent SSD for upgrading old laptops."
-            },
-            {
-              "userName": "MarkLee",
-              "rating": 4.3,
-              "comment": "Great value and performance."
-            }
-          ]
+          "userName": "JaneSmith",
+          "rating": 4.5,
+          "comment": "Reliable and efficient. Great value for the price."
         }
       ]
     },
     {
-      "categoryName": "Monitor",
-      "products": [
+      "id": 14,
+      "image": "/images/psu2.jpg",
+      "productName": "EVGA SuperNOVA 850 G+, 850W, 80+ Gold Certified",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 139.99,
+      "description": "The EVGA SuperNOVA 850 G+ is a high-performance power supply unit built with premium components for long-lasting and efficient operation. It offers 850W of power with 80+ Gold efficiency.",
+      "keyFeatures": {
+        "Brand": "EVGA",
+        "Wattage": "850W",
+        "Efficiency": "80+ Gold",
+        "Modular": "Semi-Modular",
+        "Fan Size": "135mm",
+        "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 6 x PCIe, 9 x SATA, 5 x Molex"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.4,
+      "reviews": [
         {
-          "image": "monitor1.jpg",
-          "productName": "ASUS TUF Gaming VG279QM",
-          "status": "In Stock",
-          "price": 359.99,
-          "description": "The ASUS TUF Gaming VG279QM is a 27-inch Full HD gaming monitor with a high refresh rate of 280Hz, making it perfect for competitive gaming. It features an IPS panel for accurate colors and AMD FreeSync Premium technology for smooth gameplay.",
-          "keyFeatures": {
-            "Brand": "ASUS",
-            "Display Size": "27 inches",
-            "Resolution": "1920 x 1080",
-            "Panel Type": "IPS",
-            "Refresh Rate": "280Hz",
-            "Response Time": "1ms (GTG)"
-          },
-          "individualRating": 4.9,
-          "averageRating": 4.8,
-          "reviews": [
-            {
-              "userName": "DavidWilson",
-              "rating": 5,
-              "comment": "Amazing monitor with buttery smooth gameplay."
-            },
-            {
-              "userName": "JenniferHarris",
-              "rating": 4.8,
-              "comment": "Best gaming monitor I've ever used."
-            }
-          ]
+          "userName": "MichaelJohnson",
+          "rating": 4.5,
+          "comment": "Solid PSU with excellent performance."
         },
         {
-          "image": "monitor2.jpg",
-          "productName": "Dell Ultrasharp U2719D",
-          "status": "In Stock",
-          "price": 399.99,
-          "description": "The Dell Ultrasharp U2719D is a 27-inch QHD monitor that offers excellent color accuracy and wide viewing angles. It is ideal for content creation and professional work, thanks to its factory-calibrated display and ergonomic design.",
-          "keyFeatures": {
-            "Brand": "Dell",
-            "Display Size": "27 inches",
-            "Resolution": "2560 x 1440",
-            "Panel Type": "IPS",
-            "Refresh Rate": "60Hz",
-            "Response Time": "5ms (gray to gray)"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "userName": "JessicaLee",
-              "rating": 4.5,
-              "comment": "Excellent monitor for photo editing and design work."
-            },
-            {
-              "userName": "RyanSmith",
-              "rating": 4.8,
-              "comment": "Highly recommend this monitor for productivity."
-            }
-          ]
-        },
-        {
-          "image": "monitor3.jpg",
-          "productName": "LG 34GN850-B UltraGear",
-          "status": "In Stock",
-          "price": 799.99,
-          "description": "The LG 34GN850-B UltraGear is a 34-inch ultrawide gaming monitor with a QHD resolution and a fast 144Hz refresh rate. It supports NVIDIA G-Sync and offers an immersive gaming experience with its curved display.",
-          "keyFeatures": {
-            "Brand": "LG",
-            "Display Size": "34 inches",
-            "Resolution": "3440 x 1440",
-            "Panel Type": "IPS",
-            "Refresh Rate": "144Hz",
-            "Response Time": "1ms (GTG)"
-          },
-          "individualRating": 4.6,
-          "averageRating": 4.5,
-          "reviews": [
-            {
-              "userName": "ThomasBrown",
-              "rating": 4.5,
-              "comment": "Gorgeous monitor with vibrant colors."
-            },
-            {
-              "userName": "KarenAnderson",
-              "rating": 4.7,
-              "comment": "Perfect monitor for multitasking and gaming."
-            }
-          ]
-        },
-        {
-          "image": "monitor4.jpg",
-          "productName": "Acer R240HY IPS",
-          "status": "In Stock",
-          "price": 149.99,
-          "description": "The Acer R240HY IPS is a budget-friendly 23.8-inch monitor with an IPS panel for accurate colors and wide viewing angles. It is suitable for everyday use and offers a sleek and slim design.",
-          "keyFeatures": {
-            "Brand": "Acer",
-            "Display Size": "23.8 inches",
-            "Resolution": "1920 x 1080",
-            "Panel Type": "IPS",
-            "Refresh Rate": "60Hz",
-            "Response Time": "4ms (gray to gray)"
-          },
-          "individualRating": 4.5,
-          "averageRating": 4.4,
-          "reviews": [
-            {
-              "userName": "MichaelSmith",
-              "rating": 4.5,
-              "comment": "Great monitor for general use and casual gaming."
-            },
-            {
-              "userName": "SarahJohnson",
-              "rating": 4.3,
-              "comment": "Best value for money monitor."
-            }
-          ]
+          "userName": "EmilyWilliams",
+          "rating": 4,
+          "comment": "Good power supply, but a bit pricey."
         }
       ]
     },
     {
-      "categoryName": "Others",
-      "products": [
+      "id": 15,
+      "image": "/images/psu3.jpg",
+      "productName": "Seasonic Focus GX-650, 650W, 80+ Gold Certified",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 109.99,
+      "description": "The Seasonic Focus GX-650 is a reliable and efficient power supply unit, delivering 650W of power with 80+ Gold efficiency. It is built with premium components for stable and quiet performance.",
+      "keyFeatures": {
+        "Brand": "Seasonic",
+        "Wattage": "650W",
+        "Efficiency": "80+ Gold",
+        "Modular": "Semi-Modular",
+        "Fan Size": "120mm",
+        "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 2 x PCIe, 8 x SATA, 3 x Molex"
+      },
+      "individualRating": 4.8,
+      "averageRating": 4.7,
+      "reviews": [
         {
-          "image": "gpu1.jpg",
-          "productName": "NVIDIA GeForce RTX 3080",
-          "status": "In Stock",
-          "price": 999.99,
-          "description": "The NVIDIA GeForce RTX 3080 is a powerful graphics card for gaming and content creation. It offers real-time ray tracing and AI capabilities, delivering stunning visuals and high performance for the most demanding tasks.",
-          "keyFeatures": {
-            "Brand": "NVIDIA",
-            "Memory Size": "10GB GDDR6X",
-            "CUDA Cores": "8704",
-            "Boost Clock": "1710 MHz",
-            "Ports": "3x DisplayPort, 1x HDMI"
-          },
-          "individualRating": 4.9,
-          "averageRating": 4.8,
-          "reviews": [
-            {
-              "userName": "JohnDoe",
-              "rating": 5,
-              "comment": "The best GPU I've ever used for gaming."
-            },
-            {
-              "userName": "JaneSmith",
-              "rating": 4.8,
-              "comment": "Smooth performance and amazing graphics."
-            }
-          ]
+          "userName": "SarahMiller",
+          "rating": 5,
+          "comment": "Excellent PSU. Runs quietly and efficiently."
         },
         {
-          "image": "mouse1.jpg",
-          "productName": "Logitech G502 HERO",
-          "status": "In Stock",
-          "price": 79.99,
-          "description": "The Logitech G502 HERO is a high-performance gaming mouse with a customizable design and advanced optical sensor. It offers precise tracking and is designed for comfort during long gaming sessions.",
-          "keyFeatures": {
-            "Brand": "Logitech",
-            "DPI Range": "100 - 16,000",
-            "Programmable Buttons": "11",
-            "Weight": "121 grams",
-            "Interface": "USB"
-          },
-          "individualRating": 4.7,
-          "averageRating": 4.6,
-          "reviews": [
-            {
-              "userName": "MarkTaylor",
-              "rating": 4.5,
-              "comment": "The mouse feels great in my hand and works flawlessly."
-            },
-            {
-              "userName": "EmilyBrown",
-              "rating": 4.8,
-              "comment": "Highly recommend this mouse for gaming and productivity."
-            }
-          ]
+          "userName": "DavidSmith",
+          "rating": 4.7,
+          "comment": "Great choice for a gaming PC."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "image": "/images/psu4.jpg",
+      "productName": "Cooler Master MWE Gold 750 V2, 750W, 80+ Gold Certified",
+      "category": "Power Supply Unit",
+      "status": "In Stock",
+      "price": 119.99,
+      "description": "The Cooler Master MWE Gold 750 V2 is a high-performance power supply unit designed for gaming and system builders. It offers 750W of power with 80+ Gold efficiency and comes with fully modular cables.",
+      "keyFeatures": {
+        "Brand": "Cooler Master",
+        "Wattage": "750W",
+        "Efficiency": "80+ Gold",
+        "Modular": "Fully Modular",
+        "Fan Size": "120mm",
+        "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin EPS, 4 x PCIe, 9 x SATA, 5 x Molex"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.3,
+      "reviews": [
+        {
+          "userName": "MarkWilson",
+          "rating": 4.5,
+          "comment": "Good PSU, but wish it had more SATA connectors."
         },
         {
-          "image": "keyboard1.jpg",
-          "productName": "Corsair K95 RGB Platinum XT",
-          "status": "In Stock",
-          "price": 199.99,
-          "description": "The Corsair K95 RGB Platinum XT is a premium mechanical gaming keyboard with customizable RGB lighting and dedicated macro keys. It offers smooth and responsive key presses for competitive gaming.",
-          "keyFeatures": {
-            "Brand": "Corsair",
-            "Switch Type": "Cherry MX Speed",
-            "Backlighting": "RGB",
-            "Macro Keys": "6",
-            "Connectivity": "Wired (USB)",
-            "Anti-Ghosting": "Full Key Rollover"
-          },
-          "individualRating": 4.6,
-          "averageRating": 4.5,
-          "reviews": [
-            {
-              "userName": "AlexJohnson",
-              "rating": 4.5,
-              "comment": "Excellent keyboard for gaming and typing."
-            },
-            {
-              "userName": "OliviaLee",
-              "rating": 4.7,
-              "comment": "The RGB lighting looks stunning."
-            }
-          ]
+          "userName": "LauraLee",
+          "rating": 4.2,
+          "comment": "Stable performance, no issues so far."
+        }
+      ]
+    },
+
+    {
+      "id": 17,
+      "image": "/images/storage1.jpg",
+      "productName": "Samsung 970 EVO Plus NVMe SSD, 500GB",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 99.99,
+      "description": "The Samsung 970 EVO Plus NVMe SSD offers fast read and write speeds, making it ideal for gaming and multimedia tasks. It provides 500GB of storage capacity and uses the latest V-NAND technology.",
+      "keyFeatures": {
+        "Brand": "Samsung",
+        "Capacity": "500GB",
+        "Interface": "NVMe",
+        "Read Speed": "3500 MB/s",
+        "Write Speed": "3300 MB/s",
+        "Form Factor": "M.2 2280"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+        {
+          "userName": "AmyJohnson",
+          "rating": 5,
+          "comment": "Blazing fast SSD. Great performance!"
         },
         {
-          "image": "keyboard2.jpg",
-          "productName": "Razer DeathAdder V2",
-          "status": "In Stock",
-          "price": 69.99,
-          "description": "The Razer DeathAdder V2 is a popular gaming mouse with an ergonomic design and high-precision optical sensor. It offers fast and accurate tracking, making it a top choice for gamers.",
-          "keyFeatures": {
-            "Brand": "Razer",
-            "DPI Range": "100 - 20,000",
-            "Programmable Buttons": "8",
-            "Weight": "82 grams",
-            "Interface": "USB"
-          },
-          "individualRating": 4.5,
-          "averageRating": 4.4,
-          "reviews": [
-            {
-              "userName": "MichaelAnderson",
-              "rating": 4.5,
-              "comment": "The mouse feels great and performs exceptionally well."
-            },
-            {
-              "userName": "SophiaWilson",
-              "rating": 4.3,
-              "comment": "Perfect mouse for both work and gaming."
-            }
-          ]
+          "userName": "RobertSmith",
+          "rating": 4.8,
+          "comment": "Highly recommend this SSD for gaming."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "image": "/images/storage2.jpg",
+      "productName": "Western Digital Blue SATA SSD, 1TB",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 109.99,
+      "description": "The Western Digital Blue SATA SSD offers reliable and consistent performance for everyday computing tasks. It provides 1TB of storage capacity and is built to deliver fast data transfer speeds.",
+      "keyFeatures": {
+        "Brand": "Western Digital",
+        "Capacity": "1TB",
+        "Interface": "SATA III",
+        "Read Speed": "560 MB/s",
+        "Write Speed": "530 MB/s",
+        "Form Factor": "2.5-inch"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "userName": "EmilyBrown",
+          "rating": 4.5,
+          "comment": "Solid and affordable SSD for general use."
+        },
+        {
+          "userName": "MichaelDavis",
+          "rating": 4.8,
+          "comment": "Great value for the price. Works perfectly."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "image": "/images/storage3.jpg",
+      "productName": "Seagate BarraCuda HDD, 2TB",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 69.99,
+      "description": "The Seagate BarraCuda HDD is a reliable and cost-effective storage solution. It offers 2TB of storage capacity and is designed for high-speed data transfer and large storage needs.",
+      "keyFeatures": {
+        "Brand": "Seagate",
+        "Capacity": "2TB",
+        "Interface": "SATA III",
+        "RPM": "7200",
+        "Form Factor": "3.5-inch"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+        {
+          "userName": "JohnMiller",
+          "rating": 4.5,
+          "comment": "Good HDD for storing large files."
+        },
+        {
+          "userName": "SarahAnderson",
+          "rating": 4.7,
+          "comment": "Fast and reliable storage option."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "image": "/images/storage4.jpg",
+      "productName": "Crucial MX500 SATA SSD, 500GB",
+      "category": "Storage Device",
+      "status": "In Stock",
+      "price": 89.99,
+      "description": "The Crucial MX500 SATA SSD delivers fast data transfer speeds and provides 500GB of storage capacity. It is built with Micron 3D NAND technology for enhanced reliability and durability.",
+      "keyFeatures": {
+        "Brand": "Crucial",
+        "Capacity": "500GB",
+        "Interface": "SATA III",
+        "Read Speed": "560 MB/s",
+        "Write Speed": "510 MB/s",
+        "Form Factor": "2.5-inch"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "userName": "LauraClark",
+          "rating": 4.5,
+          "comment": "Excellent SSD for upgrading old laptops."
+        },
+        {
+          "userName": "MarkLee",
+          "rating": 4.3,
+          "comment": "Great value and performance."
+        }
+      ]
+    },
+
+    {
+      "id": 21,
+      "image": "/images/monitor1.jpg",
+      "productName": "ASUS TUF Gaming VG279QM",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 359.99,
+      "description": "The ASUS TUF Gaming VG279QM is a 27-inch Full HD gaming monitor with a high refresh rate of 280Hz, making it perfect for competitive gaming. It features an IPS panel for accurate colors and AMD FreeSync Premium technology for smooth gameplay.",
+      "keyFeatures": {
+        "Brand": "ASUS",
+        "Display Size": "27 inches",
+        "Resolution": "1920 x 1080",
+        "Panel Type": "IPS",
+        "Refresh Rate": "280Hz",
+        "Response Time": "1ms (GTG)"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+        {
+          "userName": "DavidWilson",
+          "rating": 5,
+          "comment": "Amazing monitor with buttery smooth gameplay."
+        },
+        {
+          "userName": "JenniferHarris",
+          "rating": 4.8,
+          "comment": "Best gaming monitor I've ever used."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "image": "/images/monitor2.jpg",
+      "productName": "Dell Ultrasharp U2719D",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 399.99,
+      "description": "The Dell Ultrasharp U2719D is a 27-inch QHD monitor that offers excellent color accuracy and wide viewing angles. It is ideal for content creation and professional work, thanks to its factory-calibrated display and ergonomic design.",
+      "keyFeatures": {
+        "Brand": "Dell",
+        "Display Size": "27 inches",
+        "Resolution": "2560 x 1440",
+        "Panel Type": "IPS",
+        "Refresh Rate": "60Hz",
+        "Response Time": "5ms (gray to gray)"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "userName": "JessicaLee",
+          "rating": 4.5,
+          "comment": "Excellent monitor for photo editing and design work."
+        },
+        {
+          "userName": "RyanSmith",
+          "rating": 4.8,
+          "comment": "Highly recommend this monitor for productivity."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "image": "/images/monitor3.jpg",
+      "productName": "LG 34GN850-B UltraGear",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 799.99,
+      "description": "The LG 34GN850-B UltraGear is a 34-inch ultrawide gaming monitor with a QHD resolution and a fast 144Hz refresh rate. It supports NVIDIA G-Sync and offers an immersive gaming experience with its curved display.",
+      "keyFeatures": {
+        "Brand": "LG",
+        "Display Size": "34 inches",
+        "Resolution": "3440 x 1440",
+        "Panel Type": "IPS",
+        "Refresh Rate": "144Hz",
+        "Response Time": "1ms (GTG)"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+        {
+          "userName": "ThomasBrown",
+          "rating": 4.5,
+          "comment": "Gorgeous monitor with vibrant colors."
+        },
+        {
+          "userName": "KarenAnderson",
+          "rating": 4.7,
+          "comment": "Perfect monitor for multitasking and gaming."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "image": "/images/monitor4.jpg",
+      "productName": "Acer R240HY IPS",
+      "category": "Monitor",
+      "status": "In Stock",
+      "price": 149.99,
+      "description": "The Acer R240HY IPS is a budget-friendly 23.8-inch monitor with an IPS panel for accurate colors and wide viewing angles. It is suitable for everyday use and offers a sleek and slim design.",
+      "keyFeatures": {
+        "Brand": "Acer",
+        "Display Size": "23.8 inches",
+        "Resolution": "1920 x 1080",
+        "Panel Type": "IPS",
+        "Refresh Rate": "60Hz",
+        "Response Time": "4ms (gray to gray)"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "userName": "MichaelSmith",
+          "rating": 4.5,
+          "comment": "Great monitor for general use and casual gaming."
+        },
+        {
+          "userName": "SarahJohnson",
+          "rating": 4.3,
+          "comment": "Best value for money monitor."
+        }
+      ]
+    },
+
+    {
+      "id": 25,
+      "image": "/images/gpu1.jpg",
+      "productName": "NVIDIA GeForce RTX 3080",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 999.99,
+      "description": "The NVIDIA GeForce RTX 3080 is a powerful graphics card for gaming and content creation. It offers real-time ray tracing and AI capabilities, delivering stunning visuals and high performance for the most demanding tasks.",
+      "keyFeatures": {
+        "Brand": "NVIDIA",
+        "Memory Size": "10GB GDDR6X",
+        "CUDA Cores": "8704",
+        "Boost Clock": "1710 MHz",
+        "Ports": "3x DisplayPort, 1x HDMI"
+      },
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+        {
+          "userName": "JohnDoe",
+          "rating": 5,
+          "comment": "The best GPU I've ever used for gaming."
+        },
+        {
+          "userName": "JaneSmith",
+          "rating": 4.8,
+          "comment": "Smooth performance and amazing graphics."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "image": "/images/mouse1.jpg",
+      "productName": "Logitech G502 HERO",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 79.99,
+      "description": "The Logitech G502 HERO is a high-performance gaming mouse with a customizable design and advanced optical sensor. It offers precise tracking and is designed for comfort during long gaming sessions.",
+      "keyFeatures": {
+        "Brand": "Logitech",
+        "DPI Range": "100 - 16,000",
+        "Programmable Buttons": "11",
+        "Weight": "121 grams",
+        "Interface": "USB"
+      },
+      "individualRating": 4.7,
+      "averageRating": 4.6,
+      "reviews": [
+        {
+          "userName": "MarkTaylor",
+          "rating": 4.5,
+          "comment": "The mouse feels great in my hand and works flawlessly."
+        },
+        {
+          "userName": "EmilyBrown",
+          "rating": 4.8,
+          "comment": "Highly recommend this mouse for gaming and productivity."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "image": "/images/keyboard1.jpg",
+      "productName": "Corsair K95 RGB Platinum XT",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 199.99,
+      "description": "The Corsair K95 RGB Platinum XT is a premium mechanical gaming keyboard with customizable RGB lighting and dedicated macro keys. It offers smooth and responsive key presses for competitive gaming.",
+      "keyFeatures": {
+        "Brand": "Corsair",
+        "Switch Type": "Cherry MX Speed",
+        "Backlighting": "RGB",
+        "Macro Keys": "6",
+        "Connectivity": "Wired (USB)",
+        "Anti-Ghosting": "Full Key Rollover"
+      },
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+        {
+          "userName": "AlexJohnson",
+          "rating": 4.5,
+          "comment": "Excellent keyboard for gaming and typing."
+        },
+        {
+          "userName": "OliviaLee",
+          "rating": 4.7,
+          "comment": "The RGB lighting looks stunning."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "image": "/images/keyboard2.jpg",
+      "productName": "Razer DeathAdder V2",
+      "category": "Others",
+      "status": "In Stock",
+      "price": 69.99,
+      "description": "The Razer DeathAdder V2 is a popular gaming mouse with an ergonomic design and high-precision optical sensor. It offers fast and accurate tracking, making it a top choice for gamers.",
+      "keyFeatures": {
+        "Brand": "Razer",
+        "DPI Range": "100 - 20,000",
+        "Programmable Buttons": "8",
+        "Weight": "82 grams",
+        "Interface": "USB"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.4,
+      "reviews": [
+        {
+          "userName": "MichaelAnderson",
+          "rating": 4.5,
+          "comment": "The mouse feels great and performs exceptionally well."
+        },
+        {
+          "userName": "SophiaWilson",
+          "rating": 4.3,
+          "comment": "Perfect mouse for both work and gaming."
         }
       ]
     }
