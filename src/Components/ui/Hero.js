@@ -17,7 +17,6 @@ const Hero = () => {
             Get ready to unleash your gaming and productivity potential with our
             wide range of high-performance PC components.
           </p>
-          <button className="btn btn-primary text-white">Get Started</button>
         </div>
       </div>
     </div>
