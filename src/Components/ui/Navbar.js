@@ -1,8 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import logo from "/public/pc-high-resolution-logo-color-on-transparent-background.png";
+import { signOut, useSession } from "next-auth/react";
 
 const Navbar = () => {
+  const { data: session } = useSession();
+
   return (
     <div className="bg-base-200 ">
       <div className="navbar  container mx-auto">
@@ -54,13 +57,16 @@ const Navbar = () => {
                   </li>
                 </ul>
               </li>
+              <li className="text-lg">
+                <Link href="/login">Login</Link>
+              </li>
             </ul>
           </div>
           <Link href="/">
             <img src={logo.src} alt="" className="w-20" />
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1 z-10">
             <li tabIndex={0} className="text-lg">
               <details>
@@ -90,9 +96,24 @@ const Navbar = () => {
                 </ul>
               </details>
             </li>
+            {session?.user ? (
+              <button
+                className="btn btn-error text-white ml-2"
+                onClick={() => signOut()}
+              >
+                Log Out
+              </button>
+            ) : (
+              <li className=" text-lg">
+                <Link href="/login">Login</Link>
+              </li>
+            )}
+            <Link href="/pcbuilder" className="btn btn-primary text-white ml-2">
+              PC Builder
+            </Link>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end lg:hidden">
           <Link href="/pcbuilder" className="btn btn-primary text-white">
             PC Builder
           </Link>
