@@ -9,7 +9,7 @@ const CategoryHome = ({ products }) => {
         Products
       </p>
 
-      <div className="grid lg:grid-cols-2 gap-12 mt-12">
+      <div className="grid lg:grid-cols-2 gap-8 mt-12">
         {products?.data.map((pr) => (
           <Link key={pr._id} href={`/products/${pr.id}`}>
             <div className="card lg:card-side bg-base-100 hover:shadow-xl border px-5 lg:py-8 py-12">

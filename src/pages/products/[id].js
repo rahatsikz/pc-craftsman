@@ -3,10 +3,10 @@ import { FaUserAlt, FaRegComment } from "react-icons/fa";
 import ModalImage from "react-modal-image";
 
 const ProductDetail = ({ productData }) => {
-  console.log(productData);
+  // console.log(productData);
 
   return (
-    <div className="container mx-auto flex lg:flex-row flex-col items-center my-12 lg:gap-20 gap-8">
+    <div className="container mx-auto flex lg:flex-row flex-col items-center my-12 lg:gap-20 gap-8 h-[60vh]">
       {/* <p> {productData.data[0].productName} </p> */}
       <Head>
         <title>Product Details </title>

@@ -32,25 +32,25 @@ const Navbar = () => {
                 <ul className="p-2 text-lg">
                   <a>Category</a>
                   <li>
-                    <Link href="/products/cpu">CPU</Link>
+                    <Link href="/category/CPU">CPU</Link>
                   </li>
                   <li>
-                    <Link href="/products/motherboard">Motherboard</Link>
+                    <Link href="/category/Motherboard">Motherboard</Link>
                   </li>
                   <li>
-                    <Link href="/products/ram">Ram</Link>
+                    <Link href="/category/Ram">Ram</Link>
                   </li>
                   <li>
-                    <Link href="/products/powersupply">Power Supply</Link>
+                    <Link href="/category/Power Supply Unit">Power Supply</Link>
                   </li>
                   <li>
-                    <Link href="/products/storagedevice">Storage Device</Link>
+                    <Link href="/category/Storage Device">Storage Device</Link>
                   </li>
                   <li>
-                    <Link href="/products/monitor">Monitor</Link>
+                    <Link href="/category/Monitor">Monitor</Link>
                   </li>
                   <li>
-                    <Link href="/products/others">Others</Link>
+                    <Link href="/category/Others">Others</Link>
                   </li>
                 </ul>
               </li>
@@ -67,25 +67,25 @@ const Navbar = () => {
                 <summary>Category</summary>
                 <ul className="p-2">
                   <li>
-                    <Link href="/products/cpu">CPU</Link>
+                    <Link href="/category/CPU">CPU</Link>
                   </li>
                   <li>
-                    <Link href="/products/motherboard">Motherboard</Link>
+                    <Link href="/category/Motherboard">Motherboard</Link>
                   </li>
                   <li>
-                    <Link href="/products/ram">Ram</Link>
+                    <Link href="/category/Ram">Ram</Link>
                   </li>
                   <li>
-                    <Link href="/products/powersupply">Power Supply</Link>
+                    <Link href="/category/Power Supply Unit">Power Supply</Link>
                   </li>
                   <li>
-                    <Link href="/products/storagedevice">Storage Device</Link>
+                    <Link href="/category/Storage Device">Storage Device</Link>
                   </li>
                   <li>
-                    <Link href="/products/monitor">Monitor</Link>
+                    <Link href="/category/Monitor">Monitor</Link>
                   </li>
                   <li>
-                    <Link href="/products/others">Others</Link>
+                    <Link href="/category/Others">Others</Link>
                   </li>
                 </ul>
               </details>
