@@ -6,7 +6,7 @@ const ProductDetail = ({ productData }) => {
   // console.log(productData);
 
   return (
-    <div className="container mx-auto flex lg:flex-row flex-col items-center my-12 lg:gap-20 gap-8 h-[60vh]">
+    <div className="container mx-auto flex lg:flex-row flex-col items-center my-12 lg:gap-20 gap-8 xl:h-[60vh]">
       {/* <p> {productData.data[0].productName} </p> */}
       <Head>
         <title>Product Details </title>
@@ -101,7 +101,7 @@ const ProductDetail = ({ productData }) => {
 export default ProductDetail;
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${process.env.URL}/api/products`);
+  const res = await fetch(`https://pc-craftsman.vercel.app/api/products`);
 
   const data = await res.json();
 
@@ -116,7 +116,9 @@ export const getStaticProps = async ({ params }) => {
   const { id } = params;
 
   // Fetch data from the API
-  const res = await fetch(`${process.env.URL}/api/products/?id=${id}`);
+  const res = await fetch(
+    `https://pc-craftsman.vercel.app/api/products/?id=${id}`
+  );
   const productData = await res.json();
 
   return {

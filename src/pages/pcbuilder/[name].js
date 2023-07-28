@@ -87,7 +87,9 @@ export default PCBuilderProduct;
 export const getServerSideProps = async ({ params }) => {
   const { name } = params;
 
-  const res = await fetch(`${process.env.URL}/api/products?category=${name}`);
+  const res = await fetch(
+    `https://pc-craftsman.vercel.app/api/products/?category=${name}`
+  );
   const products = await res.json();
   return { props: { products } };
 };

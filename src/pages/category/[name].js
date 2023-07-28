@@ -1,10 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
+import Head from "next/head";
 import Link from "next/link";
 import { FaSlack, FaMoneyBillAlt, FaStore, FaStar } from "react-icons/fa";
 
 const CategoryHome = ({ products }) => {
   return (
     <div className="my-6 container mx-auto">
+      <Head>
+        <title> {products.data[0].category} </title>
+      </Head>
       <p className="text-primary text-2xl text-center underline underline-offset-8 mb-8">
         Products
       </p>
@@ -42,7 +46,7 @@ const CategoryHome = ({ products }) => {
 export default CategoryHome;
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${process.env.URL}/api/products`);
+  const res = await fetch(`https://pc-craftsman.vercel.app/api/products`);
 
   const data = await res.json();
 
@@ -56,7 +60,9 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const { name } = params;
 
-  const res = await fetch(`${process.env.URL}/api/products?category=${name}`);
+  const res = await fetch(
+    `https://pc-craftsman.vercel.app/api/products/?category=${name}`
+  );
   const products = await res.json();
 
   return {

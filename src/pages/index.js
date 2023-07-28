@@ -26,7 +26,7 @@ const HomePage = ({ products }) => {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${process.env.URL}/api/featured`);
+  const res = await fetch(`https://pc-craftsman.vercel.app/api/featured`);
   const data = await res.json();
   return {
     props: {
