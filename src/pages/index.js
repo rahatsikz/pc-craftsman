@@ -1,3 +1,4 @@
+import FeaturedCategory from "@/Components/ui/FeaturedCategory";
 import FeaturedProduct from "@/Components/ui/FeaturedProduct";
 import Hero from "@/Components/ui/Hero";
 import Head from "next/head";
@@ -17,6 +18,7 @@ const HomePage = ({ products }) => {
       </Head>
       <Hero />
       <FeaturedProduct products={products} />
+      <FeaturedCategory />
     </div>
   );
 };

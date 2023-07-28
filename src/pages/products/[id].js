@@ -63,6 +63,8 @@ const ProductDetail = ({ productData }) => {
               productData.data[0].keyFeatures.Connectivity}{" "}
             {productData.data[0].keyFeatures.Type &&
               productData.data[0].keyFeatures.Type}{" "}
+            {productData.data[0].keyFeatures.TDP &&
+              productData.data[0].keyFeatures.TDP}{" "}
           </p>
           <p>
             {" "}

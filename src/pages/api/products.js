@@ -26,8 +26,16 @@ async function run(req, res) {
     if (req.method === "GET") {
       // Check if a specific product ID is provided
       const id = parseInt(req.query.id);
+
+      const category = req.query.category;
+
       if (id) {
         const result = await productCollection.find({ id: id }).toArray();
+        res.send({ success: true, status: 200, data: result });
+      } else if (category) {
+        const result = await productCollection
+          .find({ category: category })
+          .toArray();
         res.send({ success: true, status: 200, data: result });
       } else {
         // Get all products if no specific ID is provided
