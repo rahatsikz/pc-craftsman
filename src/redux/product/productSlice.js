@@ -8,7 +8,7 @@ const initialState = {
     psu: null,
     storage: null,
     monitor: null,
-    others: null,
+    // others: null,
   },
 };
 
@@ -34,9 +34,9 @@ const productSlice = createSlice({
     setMonitor: (state, action) => {
       state.product.monitor = action.payload;
     },
-    setOthers: (state, action) => {
-      state.product.others = action.payload;
-    },
+    // setOthers: (state, action) => {
+    //   state.product.others = action.payload;
+    // },
   },
 });
 
@@ -47,7 +47,7 @@ export const {
   setPsu,
   setStorage,
   setMonitor,
-  setOthers,
+  //   setOthers,
 } = productSlice.actions;
 
 export default productSlice.reducer;

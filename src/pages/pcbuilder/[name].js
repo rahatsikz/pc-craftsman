@@ -33,9 +33,10 @@ const PCBuilderProduct = ({ products }) => {
       dispatch(setStorage(pr));
     } else if (pr.category === "Monitor") {
       dispatch(setMonitor(pr));
-    } else if (pr.category === "Others") {
-      dispatch(setOthers(pr));
     }
+    //  else if (pr.category === "Others") {
+    //   dispatch(setOthers(pr));
+    // }
     router.push("/pcbuilder");
   };
 

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+import { toast } from "react-hot-toast";
 import { useSelector } from "react-redux";
 
 const PCBuilder = () => {
@@ -37,12 +38,16 @@ const PCBuilder = () => {
       name: "Monitor",
       selected: product.monitor,
     },
-    {
-      id: 7,
-      name: "Others",
-      selected: product.others,
-    },
+    // {
+    //   id: 7,
+    //   name: "Others",
+    //   selected: product.others,
+    // },
   ];
+
+  const handleToast = () => {
+    toast.success("Your Build has been confirmed");
+  };
 
   // console.log(products);
   return (
@@ -70,6 +75,30 @@ const PCBuilder = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <div className="mt-6 text-center">
+        {(!categories[0].selected ||
+          !categories[1].selected ||
+          !categories[2].selected ||
+          !categories[3].selected ||
+          !categories[4].selected ||
+          !categories[5].selected) && (
+          <button className="btn btn-disabled">Complete Build</button>
+        )}
+        {categories[0].selected &&
+          categories[1].selected &&
+          categories[2].selected &&
+          categories[3].selected &&
+          categories[4].selected &&
+          categories[5].selected && (
+            <button
+              onClick={handleToast}
+              className="btn btn-primary text-white"
+            >
+              Complete Build
+            </button>
+          )}
       </div>
     </div>
   );
