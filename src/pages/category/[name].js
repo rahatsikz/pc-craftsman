@@ -42,7 +42,7 @@ const CategoryHome = ({ products }) => {
 export default CategoryHome;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch(`${process.env.URL}/api/products`);
 
   const data = await res.json();
 
@@ -56,10 +56,7 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async ({ params }) => {
   const { name } = params;
 
-  // Fetch data from the API
-  const res = await fetch(
-    ` http://localhost:3000/api/products?category=${name}`
-  );
+  const res = await fetch(`${process.env.URL}/api/products?category=${name}`);
   const products = await res.json();
 
   return {

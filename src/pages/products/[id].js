@@ -101,7 +101,7 @@ const ProductDetail = ({ productData }) => {
 export default ProductDetail;
 
 export const getStaticPaths = async () => {
-  const res = await fetch("http://localhost:3000/api/products");
+  const res = await fetch(`${process.env.URL}/api/products`);
 
   const data = await res.json();
 
@@ -116,7 +116,7 @@ export const getStaticProps = async ({ params }) => {
   const { id } = params;
 
   // Fetch data from the API
-  const res = await fetch(`http://localhost:3000/api/products/?id=${id}`);
+  const res = await fetch(`${process.env.URL}/api/products/?id=${id}`);
   const productData = await res.json();
 
   return {

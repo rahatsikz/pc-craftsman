@@ -26,7 +26,7 @@ const HomePage = ({ products }) => {
 export default HomePage;
 
 export const getStaticProps = async () => {
-  const res = await fetch("http://localhost:3000/api/featured");
+  const res = await fetch(`${process.env.URL}/api/featured`);
   const data = await res.json();
   return {
     props: {

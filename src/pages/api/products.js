@@ -22,7 +22,6 @@ async function run(req, res) {
     // );
 
     const productCollection = client.db("pcCraft").collection("products");
-    const featuredCollection = client.db("pcCraft").collection("featured");
     if (req.method === "GET") {
       // Check if a specific product ID is provided
       const id = parseInt(req.query.id);

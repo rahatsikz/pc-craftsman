@@ -9,7 +9,6 @@ import {
   setStorage,
 } from "@/redux/product/productSlice";
 import Head from "next/head";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { FaSlack, FaMoneyBillAlt, FaStore, FaStar } from "react-icons/fa";
 import { useDispatch } from "react-redux";
@@ -88,9 +87,7 @@ export default PCBuilderProduct;
 export const getServerSideProps = async ({ params }) => {
   const { name } = params;
 
-  const res = await fetch(
-    `http://localhost:3000/api/products?category=${name}`
-  );
+  const res = await fetch(`${process.env.URL}/api/products?category=${name}`);
   const products = await res.json();
   return { props: { products } };
 };

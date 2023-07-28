@@ -14,7 +14,7 @@ const LoginPage = () => {
         className="btn text-base"
         onClick={() =>
           signIn("github", {
-            callbackUrl: callbackUrl || "http://localhost:3000/",
+            callbackUrl: callbackUrl || process.env.URL,
           })
         }
       >
