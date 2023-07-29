@@ -15,7 +15,7 @@ const Hero = () => {
           <h1 className="mb-5 text-5xl font-bold">Build Your Dream PC</h1>
           <p className="mb-5 max-w-md">
             Get ready to unleash your gaming and productivity potential with our
-            wide range of high-performance PC components.
+            wide range of high-performance PC components
           </p>
         </div>
       </div>
